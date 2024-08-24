@@ -47,3 +47,4 @@ function criarFuncionario(nome, salario, faltas) {
 const funcionario1 = criarFuncionario('Maria', 10000, 1)
 console.log(funcionario1.getSalarioLiquido());
 //*/
+

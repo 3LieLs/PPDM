@@ -50,7 +50,7 @@ mes(7)
 
 
 function valor(num1, num2) {
-    if (typeof(num1) == NaN || num2 == NaN) {
+    if (num1 == NaN || num2 == NaN) {
         console.log(`Não são números\n`)
     }
     else if (num1 > num2) {
@@ -59,7 +59,7 @@ function valor(num1, num2) {
     else if (num2 > num1) {
         console.log('Número 2 é maior que o Número 1\n')
     }
-    else if (num2 == num1){
+    else if (num1 == num2){
         console.log('Números são iguais\n')
     }
 }
